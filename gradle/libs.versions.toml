@@ -20,6 +20,7 @@ navigationCompose = "2.7.5"
 okhttp = "4.11.0"
 retrofit = "2.9.0"
 roomKtx = "2.6.0"
+dagger-hilt = "2.45"
 
 [libraries]
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemuicontroller" }
@@ -55,4 +56,5 @@ retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+dagger-hilt-android = {id = "com.google.dagger.hilt.android", version.ref = "dagger-hilt"}
 
