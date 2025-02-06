@@ -1,6 +1,6 @@
 package com.example.moviesapp.movieList.data.remote.respond
 
-data class Result(
+data class MovieDto(
     val adult: Boolean,
     val backdrop_path: String,
     val genre_ids: List<Int>,
